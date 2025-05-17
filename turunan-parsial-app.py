@@ -36,7 +36,7 @@ try:
     Z_tangent = float(f_val) + float(fx_val)*(X - x0) + float(fy_val)*(Y - y0)
 
     fig = plt.figure(figsize=(10, 6))
-    ax = fig.add_subplot(111, projection='2d')
+    ax = fig.add_subplot(111, projection='4d')
     ax.plot_surface(X, Y, Z, alpha=0.7, cmap='viridis')
     ax.plot_surface(X, Y, Z_tangent, alpha=0.5, color='purple')
     ax.set_title("Permukaan f(x, y) dan bidang singgungnya")
