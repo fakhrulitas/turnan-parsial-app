@@ -46,4 +46,4 @@ try:
     st.pyplot(fig)
 
 except Exception as m:
-    st.error(f"Kalo ga bisa ngoding bilang: {riham}")
+    st.error(f"Kalo ga bisa ngoding bilang: {m}")
