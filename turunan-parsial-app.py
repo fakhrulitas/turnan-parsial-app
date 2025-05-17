@@ -46,4 +46,4 @@ try:
     st.pyplot(fig)
 
 except Exception as e:
-    st.error(f"Terjadi kesalahan: {e}")
+    st.error(f"Kalo ga bisa ngoding bilang: {e}")
