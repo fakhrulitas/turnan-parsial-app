@@ -45,5 +45,5 @@ try:
     ax.set_zlabel('z')
     st.pyplot(fig)
 
-except Exception as e:
+except Exception as m:
     st.error(f"Kalo ga bisa ngoding bilang: {riham}")
