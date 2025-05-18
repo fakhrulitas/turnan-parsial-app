@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.title("🧮 Aplikasi Turunan Parsial")
 
 x, y = sp.symbols('x y')
-fungsi_str = st.text_input("Masukkan fungsi f(x, y):", "x**2 * y + y**3")
+fungsi_str = st.text_input("Masukkan fungsi f(x, y):", "5x**2 + 4x + 8y**2 + 300x + 500y + 10000")
 
 try:
     f = sp.sympify(fungsi_str)
