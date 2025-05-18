@@ -3,7 +3,7 @@ import sympy as sp
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Konfigurasi awal
+# Konfigurasi awal halaman
 st.set_page_config(page_title="Optimasi Biaya Produksi Baterai EV", layout="wide")
 st.title("🔋 Studi Kasus Turunan Parsial - Optimasi Biaya Produksi Baterai Kendaraan Listrik")
 
@@ -22,7 +22,8 @@ st.header("📌 1. Masukkan Fungsi Biaya Produksi")
 st.write("Masukkan fungsi biaya total C(x, y), di mana:")
 st.markdown("- `x` = jumlah modul baterai **standar**")
 st.markdown("- `y` = jumlah modul baterai **performa tinggi**")
-fungsi_str = st.text_input("Contoh: x**2 + 3*y**2 + 2*x*y", "x**2 + 3*y**2 + 2*x*y")
+fungsi_str = st.text_input("Contoh: 5*x**2 + 4*x + 8*y**2 + 300*x + 500*y + 10000",
+                           "5*x**2 + 4*x + 8*y**2 + 300*x + 500*y + 10000")
 
 x, y = sp.symbols('x y')
 
