@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Konfigurasi awal
-st.set_page_config(page_title="Studi Kasus Turunan Parsial", layout="wide")
+st.set_page_config(page_title="Studi Kasus Turunan Parsial")
 st.title("📘 Studi Kasus Turunan Parsial")
 st.markdown("## Optimasi Biaya Produksi Baterai Kendaraan Listrik")
 
