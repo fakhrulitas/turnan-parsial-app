@@ -80,19 +80,5 @@ try:
     ax.set_zlabel("C(x, y)")
     st.pyplot(fig)
 
-    st.markdown("---")
-    st.header("🧾 4. Kesimpulan")
-    st.markdown("""
-Turunan parsial memberikan informasi tentang **biaya marginal** dari masing-masing jenis modul.
-
-Dengan menganalisis nilai turunan di titik produksi tertentu, perusahaan dapat:
-
-- Mengetahui sensitivitas perubahan biaya terhadap penambahan salah satu jenis modul.
-- Membuat strategi **efisiensi produksi** jangka panjang.
-- Menentukan **kombinasi optimal** modul untuk meminimalkan total biaya produksi.
-
-Analisis ini sangat penting dalam **industri kendaraan listrik** yang kompetitif dan berbiaya tinggi.
-""")
-
 except Exception as e:
     st.error(f"Terjadi kesalahan dalam pengolahan fungsi: {e}")
